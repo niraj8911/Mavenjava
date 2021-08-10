@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mavenjava by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.yatra.qa.testcase(failed)">
+    <classes>
+      <class name="com.yatra.qa.testcase.HomePageTest">
+        <methods>
+          <include name="verifyTasksLinkTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.yatra.qa.testcase.HomePageTest -->
+      <class name="com.yatra.qa.testcase.ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateCreateNewContact"/>
+        </methods>
+      </class> <!-- com.yatra.qa.testcase.ContactsPageTest -->
+    </classes>
+  </test> <!-- com.yatra.qa.testcase(failed) -->
+</suite> <!-- Failed suite [Mavenjava by packages] -->

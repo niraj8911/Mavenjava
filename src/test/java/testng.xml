@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteA"  > 
+<!-- suite name="Suite Name" AND Please remember all the tag names should be lowered case otherwise the sytem will throw an error --> 
+      
+   
+      
+      
+      <test name="functional testing" allow-return-values="true">
+            
+  
+<classes>
+<class name = "com.yatra.qa.testcase.LoginPageTest"/>
+<class name = "com.yatra.qa.testcase.HomePageTest"/>
+<class name = "com.yatra.qa.testcase.ContactsPageTest"/>
+</classes>  
+    
+            
+            
+     </test>
+
+</suite>
